@@ -1,8 +1,5 @@
 #!/bin/bash
 
-git clone https://github.com/Lol8005/Storcli64-docker/
-cd Storcli64-docker
-
 sudo docker build -t local-storcli:latest .
 
 cd ..
