@@ -5,6 +5,7 @@ An ultra-lightweight (~25MB), Alpine-based Docker container for Broadcom/LSI Meg
 ## Features
 - **Minimal Footprint:** Uses an Alpine multi-stage build structure to keep the production runtime lean (~25MB), leaving more RAM available for your ZFS cache.
 - **Direct Hardware Communication:** Configured to safely interact with physical PCIe RAID controllers from inside an isolated container environment using `gcompat`.
+- **Tested Hardware:** Successfully tested with the LSI 9300-8i controller (IT mode) on TrueNAS SCALE.
 
 ---
 
